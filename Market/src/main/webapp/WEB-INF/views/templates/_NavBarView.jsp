@@ -39,19 +39,7 @@
                 </div>
             </li>
             </ul>
-<!--             action="/Producto/FilterProducto" method="post" -->
-<!--             <form class="form-inline my-2 my-lg-0" > -->
-<!--             <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search" id="filterProducto" name="filterProducto"> -->
-<!--             <button class="btn btn-outline-success my-3 my-sm-1 mr-sm-3" type="button" onclick="filterProductos()">Search</button> -->
-<!--             </form> -->
-<!-- 			<sprin.url value="/Producto/FilterProducto" var="SaveURL"> -->
-<%-- 			<form:form class="form-inline my-2 my-lg-0" method="POST" action="${SaveURL}" /> --%>
-<!-- 			<input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search" id="filterProducto" name="filterProducto"> -->
-<!--             <button class="btn btn-outline-success my-3 my-sm-1 mr-sm-3" type="submit">Search</button> -->
-<!-- 			</form:form> -->
-<span class="navbar-text mr-sm-3">Juan Pablo
 <img src="content/Icons/glyph/svg/si-glyph-person-people.svg" height="20" width="20"/>
-</span>
 <!-- CARRITO -->
 <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#myModalCarrito">
 	<img src="content/Icons/glyph/svg/si-glyph-basket.svg" height="20" width="20"/>

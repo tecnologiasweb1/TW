@@ -95,5 +95,10 @@ public class User {
 	public void setUserType(UserType userType) {UserType = userType;}
 
 
+    
+    public String getNombre()
+	{
+		return this.Nombre;
+	}
 
 }

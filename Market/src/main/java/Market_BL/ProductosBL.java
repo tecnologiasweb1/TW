@@ -20,14 +20,14 @@ public class ProductosBL {
 			 
 			 while (resultSet.next()) {
 				 item = new Producto();
-				 item.Id =  resultSet.getInt("Id");
-				 item.Categoria_Id = resultSet.getInt("Categoria_Id");
-				 item.Marca_Id = resultSet.getInt("Marca_Id");
-				 item.Tienda_Id = resultSet.getInt("Tienda_Id");
-				 item.Imagen = resultSet.getString("Imagen");
-				 item.Descripcion = resultSet.getString("Descripcion");
-				 item.Cantidad = resultSet.getInt("Cantidad");
-				 item.Precio = resultSet.getDouble("Precio");
+				 item.setId(resultSet.getInt("Id"));
+				 item.setCategoria_Id(resultSet.getInt("Categoria_Id"));
+				 item.setMarca_Id(resultSet.getInt("Marca_Id"));
+				 item.setTienda_Id(resultSet.getInt("Tienda_Id"));
+				 item.setImagen(resultSet.getString("Imagen"));
+				 item.setDescripcion(resultSet.getString("Descripcion"));
+				 item.setCantidad(resultSet.getInt("Cantidad"));
+				 item.setPrecio(resultSet.getDouble("Precio"));
 				 
 				 listProductos.add(item);
 			 }
@@ -52,20 +52,18 @@ public class ProductosBL {
 			 
 			 while (resultSet.next()) {
 				 item = new Producto();
-				 item.Id =  resultSet.getInt("Id");
-				 item.Categoria_Id = resultSet.getInt("Categoria_Id");
-				 item.Marca_Id = resultSet.getInt("Marca_Id");
-				 item.Tienda_Id = resultSet.getInt("Tienda_Id");
-				 item.Imagen = resultSet.getString("Imagen");
-				 item.Descripcion = resultSet.getString("Descripcion");
-				 item.Cantidad = resultSet.getInt("Cantidad");
-				 item.Precio = resultSet.getDouble("Precio");
+				 item.setId(resultSet.getInt("Id"));
+				 item.setCategoria_Id(resultSet.getInt("Categoria_Id"));
+				 item.setMarca_Id(resultSet.getInt("Marca_Id"));
+				 item.setTienda_Id(resultSet.getInt("Tienda_Id"));
+				 item.setImagen(resultSet.getString("Imagen"));
+				 item.setDescripcion(resultSet.getString("Descripcion"));
+				 item.setCantidad(resultSet.getInt("Cantidad"));
+				 item.setPrecio(resultSet.getDouble("Precio"));
 				 
 				 listProductos.add(item);
-			 }
-			 
-			 return listProductos;
-			 
+			 }		 
+			 return listProductos;		 
 		} catch (Exception ex) {
 			ex.printStackTrace();
 			return null;
